@@ -1,0 +1,148 @@
+/*body{
+    background-image: url(../css/img/bg.png); 
+    background-size: 100%; 
+}*/
+a{
+    color: #005ce6;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.container{
+    width: 450px;
+    height: 375px; 
+    background-color: #fff;
+    margin: 100px auto 0px auto;
+    text-align: center;
+    border-radius: 30px;
+    border: 3px solid #33cc33;
+}
+input[type="text"], input[type="password"], input[type="email"]{
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 30px; 
+    border: 2px solid #33cc33;
+    color: #696969;
+    font-family: "Dosis";
+}
+
+.dws-submit{
+    width: 150px;
+    height: 41px; 
+    margin: 5px 0 20px 0;
+    background: #33cc33;
+    color: #fff;
+    border: 2px solid #33cc33;
+    font-size: 15pt;
+    font-family: fantasy;   
+    cursor: pointer;
+    border-radius: 30px;
+    font-style: italic;
+    font-family: "Dosis";
+}
+.dws-submit:hover{
+    transition: all 0.25s ease;
+    background: #29a329;
+    border: 2px solid #29a329;
+    color: #fff;
+    
+}
+.dws-input::before{
+    font-family: "FontAwesome";
+    content: "\f007";
+    position: absolute;
+    font-size: 16pt;
+    padding: 18px 0 0 7px;
+    margin: 0 0 0 0px;
+    color: #33cc33;
+    
+}
+.dws-input:nth-child(2)::before{
+    content: "\f023";
+}
+.dws-input2::before{
+    font-family: "FontAwesome";
+    content: "\f007";
+    position: absolute;
+    font-size: 16pt;
+    padding: 18px 0 0 7px;
+    margin: 0 0 0 0px;
+    color: #33cc33;
+    
+}
+.dws-input2:nth-child(3)::before{
+    content: "\f023";
+}
+.dws-input2:nth-child(4)::before{
+    content: "\f023";
+}
+.dws-input2:nth-child(2)::before{
+    font-size: 16px;
+    content: "\f0e0";
+}
+
+.signtext {
+    font-size: 15pt;
+    color: #33cc33;
+    font-family: calibri;
+    margin: -40px 0 50px 0;
+    font-family: "Abel";
+    font-size: 20pt;
+    
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: #A9A9A9; 
+}
+input[type="password"]::-webkit-input-placeholder {
+    color: #A9A9A9; 
+}
+input[type="email"]::-webkit-input-placeholder {
+    color: #A9A9A9; 
+}
+
+.dws-link{
+    text-align: left;
+    padding-left: 60px;
+    margin-bottom: 30px;
+    font-family: "Dosis";
+}
+.forg-pass {
+    font-size: 13pt;
+    font-style: bold;
+}
+.container2{
+    width: 450px;
+    height: 450px; 
+    background-color: #fff;
+    margin: 100px auto 0px auto;
+    text-align: center;
+    border-radius: 30px;
+    border: 3px solid #33cc33;
+}
+.dws-submit{
+    width: 150px;
+    height: 41px; 
+    margin: 5px 0 20px 0;
+    background: #33cc33;
+    color: #fff;
+    border: 2px solid #33cc33;
+    font-size: 15pt;
+    font-family: fantasy;   
+    cursor: pointer;
+    border-radius: 30px;
+    font-style: italic;
+    font-family: "Dosis";
+}
+.dws-submit:hover{
+    transition: all 0.25s ease;
+    background: #29a329;
+    border: 2px solid #29a329;
+    color: #fff;
+    
+}
