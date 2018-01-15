@@ -26,6 +26,7 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
         model.addAttribute("error", error != null);
         model.addAttribute("logout", logout != null);
         return "login";
+        //add comment
     }
 
 }
