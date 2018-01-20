@@ -1,0 +1,11 @@
+server:
+  port: 8090
+spring:
+  mandatory-file-encoding: UTF-8
+  data:
+    mongodb:
+      database: springDemo
+security:
+  basic:
+    enabled: true
+  sessions: stateless
